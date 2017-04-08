@@ -1,0 +1,13 @@
+:1337
+gzip
+root build
+
+rewrite / {
+  to {path} {path}/index.html
+}
+
+errors {
+  * error/index.html
+}
+
+log / stdout "{combined}"

@@ -12,6 +12,7 @@ This demo site is built using the [cms](https://github.com/rasshofer/cms) packag
 - Custom paths for templates, content, and output
 - Automated deployment to GitHub Pages via Travis CI
 - Custom `base` path (due to GitHub Pages’ URL structure)
+- Custom `permalink` callback function (due to GitHub Pages’ URL structure)
 
 You can find the deployed version of this site at [https://rasshofer.github.io/cms-demo/](https://rasshofer.github.io/cms-demo/).
 

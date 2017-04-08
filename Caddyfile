@@ -2,6 +2,11 @@
 gzip
 root build
 
+rewrite /cms-demo {
+  r ^(.*)$
+  to {1}
+}
+
 rewrite / {
   to {path} {path}/index.html
 }

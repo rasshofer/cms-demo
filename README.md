@@ -10,6 +10,10 @@ This demo site is built using the [cms](https://github.com/rasshofer/cms) packag
 - Custom `markdown` addon (using [Marked](http://npmjs.com/package/marked))
 - Custom YouTube shortcode
 - Custom paths for templates, content, and output
+- Automated deployment to GitHub Pages via Travis CI
+- Custom `base` path (due to GitHub Pages’ URL structure)
+
+You can find the deployed version of this site at [https://rasshofer.github.io/cms-demo/](https://rasshofer.github.io/cms-demo/).
 
 ## Usage
 

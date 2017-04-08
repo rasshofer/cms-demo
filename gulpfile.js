@@ -38,6 +38,7 @@ gulp.task('js', () => {
 });
 
 gulp.task('cms', () => cms({
+  base: '/cms-demo',
   template: consolidate.pug,
   paths: {
     content: content,

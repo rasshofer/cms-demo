@@ -16,7 +16,7 @@ html(lang='en')
         nav
           ul
             each page in genesis.children.filter((page) => page.visible)
-              li(class={ 'active': (page.url === url || url.startsWith(`${page.url}/`)) })
+              li(class={ 'active': (page.url === url || url.startsWith(page.url)) })
                 a(href=page.url) !{page.title} 
     block content
     footer

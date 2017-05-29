@@ -52,9 +52,9 @@ gulp.task('cms', () => cms({
     ]
   },
   shortcodes: {
-    youtube: (attrs, content) => {
+    youtube: (attrs) => {
       return `<div class="youtube" style="padding-top:${(100 / attrs.width * attrs.height)}%">
-        <iframe src="https://www.youtube.com/embed/${attrs.id}" frameborder="0"></iframe>
+        <iframe src="https://www.youtube.com/embed/${attrs.youtube}" frameborder="0"></iframe>
       </div>`;
     }
   },

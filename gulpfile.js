@@ -64,7 +64,7 @@ gulp.task('cms', () => cms({
   globals: {
     site: 'CMS Demo'
   }
-}));
+}).render());
 
 gulp.task('content', (done) => {
   runSequence('cms', 'html', done);
